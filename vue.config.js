@@ -5,6 +5,10 @@ if (!process.env.API_URL && process.env.NODE_ENV === 'development') {
 }
 
 module.exports = {
+	configureWebpack: {
+		devtool: process.env.NODE_ENV === 'production' ? null : 'source-map'
+	},
+
 	lintOnSave: false,
 	publicPath: process.env.NODE_ENV === 'production' ? '' : '/admin/',
 

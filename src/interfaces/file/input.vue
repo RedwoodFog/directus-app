@@ -157,9 +157,11 @@ export default {
 			const size = this.width === 'full' ? 'large' : 'medium';
 			const fit = this.options.crop ? 'crop' : 'contain';
 
-			const source = this.$store.state.settings.values.asset_url_naming;
+			const tmpPrefix = 'naikinto';
 
-			return `/${this.currentProjectKey}/assets/${this.image[source]}?key=directus-${size}-${fit}`;
+			const imageKey = `${tmpPrefix}-${size}-${fit}`;
+
+			return this.image.data.thumbnails[imageKey].url;
 		},
 		isImage() {
 			return this.image.type && this.image.type.startsWith('image');

@@ -49,7 +49,7 @@
 				<div class="head">
 					<!-- Checkboxes -->
 					<span />
-					<span v-if="collection === 'directus_files'">{{ $t('file') }}</span>
+					<span v-if="collection === 'naikinto_files'">{{ $t('file') }}</span>
 					<span v-for="field in fields" :key="field">
 						{{ $helpers.formatField(field, collection) }}
 					</span>
@@ -92,11 +92,11 @@
 						/>
 					</div>
 
-					<span v-if="collection === 'directus_files'">
+					<span v-if="collection === 'naikinto_files'">
 						<v-ext-display
 							interface-type="file"
 							name="thumbnail"
-							collection="directus_files"
+							collection="naikinto_files"
 							type="JSON"
 							datatype="TEXT"
 							:value="item"
@@ -219,7 +219,7 @@ export default {
 			return shortid.generate();
 		},
 
-		// The fields array from props augmented with the fields information from directus_collections
+		// The fields array from props augmented with the fields information from naikinto_collections
 		// Allows us to render the value in the display component of the interface that's setup for this
 		// field
 		fieldsWithInfo() {
@@ -295,7 +295,7 @@ export default {
 				params.filters = formatFilters(this.filters);
 			}
 
-			if (this.collection === 'directus_files') {
+			if (this.collection === 'naikinto_files') {
 				params.fields = ['*'];
 			} else if (this.fields.length > 0) {
 				params.fields = clone(this.fields);

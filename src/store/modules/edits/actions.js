@@ -36,7 +36,7 @@ export function save({ commit, state, rootState }, overrides) {
 		...overrides
 	};
 
-	if (info.collection === 'directus_users' && info.primaryKey == rootState.currentUser.id) {
+	if (info.collection === 'naikinto_users' && info.primaryKey == rootState.currentUser.id) {
 		commit(UPDATE_CURRENT_USER, info.values);
 	}
 
@@ -47,7 +47,7 @@ export function save({ commit, state, rootState }, overrides) {
 		});
 	}
 
-	if (info.collection.startsWith('directus_')) {
+	if (info.collection.startsWith('naikinto_')) {
 		return api.updateItem(info.collection, info.primaryKey, info.values).then(res => {
 			commit(ITEM_CREATED);
 			return res;

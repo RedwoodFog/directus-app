@@ -50,12 +50,12 @@
   "collection_updated": "Koleksiyon Güncellendi",
   "collections_and_fields": "Koleksiyonlar & Alanlar",
   "collections": {
-    "directus_activity": "Aktivite",
-    "directus_files": "Dosyalar",
-    "directus_users": "Kullanıcılar"
+    "naikinto_activity": "Aktivite",
+    "naikinto_files": "Dosyalar",
+    "naikinto_users": "Kullanıcılar"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "İşlem",
       "collection": "Koleksiyon",
       "item": "Öğe Birincil Anahtarı",
@@ -67,7 +67,7 @@
       "user_agent": "Kullanıcı Aracısı",
       "comment": "Yorum"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Ünvan",
       "tags": "Etiketler",
       "location": "Konum",
@@ -84,7 +84,7 @@
       "filesize": "Dosya boyutu",
       "metadata": "Metaveri"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Durum",
       "first_name": "Ad",
       "last_name": "Soyad",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Diyalog Penceresi Başlangıcı (*)",
   "discard_changes": "Değişiklikleri İptal Et",
   "display_name": "Görünen İsim",
-  "directus_version": "Directus Versiyon",
+  "naikinto_version": "Directus Versiyon",
   "done": "Tamam",
   "dont_manage": "Düzenleme",
   "dont_manage_copy": "Bu koleksiyon için tanımlanan izinler, tercihler ve ayarlar sistemden kalıcı olarak kaldırılacaktır. Onaylıyor musunuz?",
@@ -254,7 +254,7 @@
     "datetime_created": "Revizyonlar tarafından kullanılan, bir ögenin yaratıldığı zamanı tutan sistem alanı.",
     "datetime_updated": "Revizyonlar tarafından kullanılan, bir ögenin son güncellendiği zamanı tutan sistem alanı.",
     "decimal": "Ondalık Sayı",
-    "file": "'directus_files.id'ye bağlı yabancıl anahtar (foreign key)",
+    "file": "'naikinto_files.id'ye bağlı yabancıl anahtar (foreign key)",
     "group": "Alanları görsel olarak bir arada tutan grup(*)",
     "integer": "Tamsayı",
     "json": "API yanıtında standart JSON formatı",
@@ -483,7 +483,7 @@
   "settings_saved": "Ayarlar Kaydedildi",
   "settings_webhooks": "Ağ Kancaları",
   "setup_2fa": "2 Adımlı Doğrulama (2FA) Kur",
-  "show_directus_collections": "Directus Sistem Koleksiyonlarını Göster",
+  "show_naikinto_collections": "Directus Sistem Koleksiyonlarını Göster",
   "signed": "Signed",
   "sign_in": "Oturum Aç",
   "sign_out": "Oturum Kapat",
@@ -538,7 +538,7 @@
   },
   "welcome": "Hoş Geldiniz!",
   "welcome_to_directus": "Directus'a Hoşgeldiniz",
-  "welcome_to_directus_copy": "Lütfen ilk projenizi oluşturmak için veritabanı bilgilerinizin hazır olduğundan emin olun.",
+  "welcome_to_naikinto_copy": "Lütfen ilk projenizi oluşturmak için veritabanı bilgilerinizin hazır olduğundan emin olun.",
   "why": "Neden?",
   "wrapping_up": "Sona Erdiriliyor",
   "wrong_super_admin_password": "Girdiğiniz süper yönetici şifresi yanlış.",

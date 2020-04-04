@@ -50,12 +50,12 @@
   "collection_updated": "Συλλογή Ενημερώθηκε",
   "collections_and_fields": "Συλλογή & πεδία",
   "collections": {
-    "directus_activity": "Δραστηριότητα",
-    "directus_files": "Αρχεία",
-    "directus_users": "Χρήστες"
+    "naikinto_activity": "Δραστηριότητα",
+    "naikinto_files": "Αρχεία",
+    "naikinto_users": "Χρήστες"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Ενέργεια",
       "collection": "Συλλογή",
       "item": "Στοιχείο Πρωτεύον Κλειδί",
@@ -67,7 +67,7 @@
       "user_agent": "Πράκτορας χρήστη",
       "comment": "Σχόλιο"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Τίτλος",
       "tags": "Tags",
       "location": "Τοποθεσία",
@@ -84,7 +84,7 @@
       "filesize": "Μέγεθος αρχείου",
       "metadata": "Μεταδεδομένα"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Κατάσταση",
       "first_name": "Όνομα",
       "last_name": "Επώνυμο",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Έναρξη παράθυρου διαλόγου.",
   "discard_changes": "Ακύρωση αλλαγών",
   "display_name": "Όνομα εμφάνισης",
-  "directus_version": "Έκδοση Directus",
+  "naikinto_version": "Έκδοση Directus",
   "done": "Ολοκληρώθηκε",
   "dont_manage": "Μην διαχειριστείτε",
   "dont_manage_copy": "Τα προνόμια, οι προτιμήσεις και οι ρυθμίσεις αυτής της συλλογής θα αφαιρεθούν οριστικά από το σύστημα! Είσαι σίγουρος;",
@@ -254,8 +254,8 @@
     "datetime_created": "Πεδίο συστήματος για την παρακολούθηση της ημερομηνίας ένα στοιχείο δημιουργήθηκε, που χρησιμοποιείται από τις αναθεωρήσεις",
     "datetime_updated": "Πεδίο συστήματος για την παρακολούθηση της ημερομηνίας ένα στοιχείο ενημερώθηκε, που χρησιμοποιείται από τις αναθεωρήσεις",
     "decimal": "Αριθμός που περιλαμβάνει δεκαδικό",
-    "file": "Ξένο κλειδί στο directus_files.id",
-    "group": "Groups fields together visually, children save group into directus_fields.group",
+    "file": "Ξένο κλειδί στο naikinto_files.id",
+    "group": "Groups fields together visually, children save group into naikinto_fields.group",
     "integer": "Ολόκληρος ο αριθμός",
     "json": "Τυπική μορφή JSON στην απόκριση API",
     "lang": "Συγκεκριμένα στις διεπαφές μετάφρασης, αποθηκεύει το κλειδί γλώσσας",
@@ -483,7 +483,7 @@
   "settings_saved": "Settings Saved",
   "settings_webhooks": "Webhooks",
   "setup_2fa": "Setup 2FA",
-  "show_directus_collections": "Show Directus System Collections",
+  "show_naikinto_collections": "Show Directus System Collections",
   "signed": "Signed",
   "sign_in": "Sign In",
   "sign_out": "Sign Out",
@@ -538,7 +538,7 @@
   },
   "welcome": "Καλώς ήρθατε",
   "welcome_to_directus": "Καλώς ήλθατε στο Directus",
-  "welcome_to_directus_copy": "Please make sure you have your database information handy to set up your first project.",
+  "welcome_to_naikinto_copy": "Please make sure you have your database information handy to set up your first project.",
   "why": "Why?",
   "wrapping_up": "Wrapping Up",
   "wrong_super_admin_password": "The super admin password you provided is incorrect.",

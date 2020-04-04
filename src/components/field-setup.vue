@@ -694,16 +694,16 @@ export default {
 		},
 		collectionsGrouped() {
 			let restrictedCollection = [
-				'directus_collections',
-				'directus_activity',
-				'directus_fields',
-				'directus_relations'
+				'naikinto_collections',
+				'naikinto_activity',
+				'naikinto_fields',
+				'naikinto_relations'
 			];
 			const collectionNames = Object.keys(this.collections);
 			const system = collectionNames.filter(
-				name => name.startsWith('directus_') && !restrictedCollection.includes(name)
+				name => name.startsWith('naikinto_') && !restrictedCollection.includes(name)
 			);
-			const user = collectionNames.filter(name => !name.startsWith('directus_'));
+			const user = collectionNames.filter(name => !name.startsWith('naikinto_'));
 			return { system, user };
 		},
 		interfaces() {
@@ -1350,7 +1350,7 @@ export default {
 
 					// Recommended relationships
 					// Interfaces can recommend a related collection. For example, the files
-					// interface will recommend the collection_many to be directus_files
+					// interface will recommend the collection_many to be naikinto_files
 					// in order to make it easier for the user to setup the interface
 					if (
 						this.selectedInterfaceInfo.relation &&

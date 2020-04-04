@@ -85,7 +85,7 @@ export default {
 					sourcePath = item[srcField]?.[source];
 				}
 
-				if (srcField === 'data' && this.fields[srcField].collection === 'directus_files') {
+				if (srcField === 'data' && this.fields[srcField].collection === 'naikinto_files') {
 					if (item.type.startsWith('image') === false) return null;
 
 					if (item.type === 'image/svg+xml') {

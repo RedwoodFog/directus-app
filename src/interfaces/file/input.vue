@@ -67,7 +67,7 @@
 						</div>
 						<v-items
 							class="items"
-							collection="directus_files"
+							collection="naikinto_files"
 							:view-type="viewType"
 							:selection="value ? [value] : []"
 							:filters="filters"
@@ -252,7 +252,7 @@ export default {
 		},
 		saveUpload(response) {
 			this.image = response.data.data;
-			// We know that the primary key of directus_files is called `id`
+			// We know that the primary key of naikinto_files is called `id`
 			this.$emit('input', this.image.id);
 		},
 		setViewOptions(updates) {
@@ -287,7 +287,7 @@ export default {
 		},
 		async removeFile() {
 			const file = this.image;
-			await this.$api.deleteItem('directus_files', file.id);
+			await this.$api.deleteItem('naikinto_files', file.id);
 			this.$notify({
 				title: this.$t('item_deleted'),
 				color: 'green',

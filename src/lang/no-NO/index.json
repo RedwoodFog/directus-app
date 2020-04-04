@@ -50,12 +50,12 @@
   "collection_updated": "Collection Updated",
   "collections_and_fields": "Kolleksjoner og felter",
   "collections": {
-    "directus_activity": "Aktivitet",
-    "directus_files": "Filer",
-    "directus_users": "Users"
+    "naikinto_activity": "Aktivitet",
+    "naikinto_files": "Filer",
+    "naikinto_users": "Users"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Action",
       "collection": "Collection",
       "item": "Item Primary Key",
@@ -67,7 +67,7 @@
       "user_agent": "User Agent",
       "comment": "Kommenter"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Title",
       "tags": "Tags",
       "location": "Location",
@@ -84,7 +84,7 @@
       "filesize": "Filesize",
       "metadata": "Metadata"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Status",
       "first_name": "First Name",
       "last_name": "Last Name",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Start på dialogvinduet.",
   "discard_changes": "Forkast endringer",
   "display_name": "Visningsnavn",
-  "directus_version": "Directus Version",
+  "naikinto_version": "Directus Version",
   "done": "Ferdig",
   "dont_manage": "Ikke administer",
   "dont_manage_copy": "Privileges, preferences, and settings for this collection will be permanently removed from the system! Are you sure?",
@@ -254,8 +254,8 @@
     "datetime_created": "Systemfelt for å holde styr på når elementet ble opprettet, brukes til versjonering",
     "datetime_updated": "Systemfelt for å holde styr på når elementet ble oppdatert, brukes til versjonering",
     "decimal": "Tall som inneholder en desimal",
-    "file": "Fremmednøkkel til directus_files.id",
-    "group": "Visuelt grupper felter sammen, barn lagrer grupper i directus_fields.group",
+    "file": "Fremmednøkkel til naikinto_files.id",
+    "group": "Visuelt grupper felter sammen, barn lagrer grupper i naikinto_fields.group",
     "integer": "Heltall",
     "json": "Standard JSON format in API response",
     "lang": "Gjelder oversettelsesgrensesnitt, denne lagrer språknøkkelen",
@@ -483,7 +483,7 @@
   "settings_saved": "Innstillinger lagret",
   "settings_webhooks": "Webhooks",
   "setup_2fa": "Setup 2FA",
-  "show_directus_collections": "Vis Directus systemkolleksjoner",
+  "show_naikinto_collections": "Vis Directus systemkolleksjoner",
   "signed": "Signed",
   "sign_in": "Logg inn",
   "sign_out": "Logg ut",
@@ -538,7 +538,7 @@
   },
   "welcome": "Velkommen",
   "welcome_to_directus": "Welcome to Directus",
-  "welcome_to_directus_copy": "Please make sure you have your database information handy to set up your first project.",
+  "welcome_to_naikinto_copy": "Please make sure you have your database information handy to set up your first project.",
   "why": "Why?",
   "wrapping_up": "Wrapping Up",
   "wrong_super_admin_password": "The super admin password you provided is incorrect.",

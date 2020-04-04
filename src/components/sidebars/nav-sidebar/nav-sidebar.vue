@@ -70,7 +70,7 @@ export default {
 					collection =>
 						collection.hidden == false &&
 						collection.managed == true &&
-						collection.collection.startsWith('directus_') === false
+						collection.collection.startsWith('naikinto_') === false
 				)
 				.filter(collection => {
 					if (

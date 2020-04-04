@@ -50,12 +50,12 @@
   "collection_updated": "تم تحديث المجموعة",
   "collections_and_fields": "المجموعات والحقول",
   "collections": {
-    "directus_activity": "نشاط",
-    "directus_files": "الملفات",
-    "directus_users": "المستخدمين"
+    "naikinto_activity": "نشاط",
+    "naikinto_files": "الملفات",
+    "naikinto_users": "المستخدمين"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "الإجراء",
       "collection": "المجموعة",
       "item": "المفتاح الأساسي للعنصر",
@@ -67,7 +67,7 @@
       "user_agent": "وكيل المستخدم",
       "comment": "تعليق"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "العنوان",
       "tags": "الوسوم",
       "location": "الموقع",
@@ -84,7 +84,7 @@
       "filesize": "حجم الملف",
       "metadata": "البيانات التعريفية"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "حالة",
       "first_name": "الاسم الأول",
       "last_name": "الاسم الأخير",
@@ -180,7 +180,7 @@
   "dialog_beginning": "بداية النافذة",
   "discard_changes": "تجاهل التغييرات",
   "display_name": "الاسم المعروض",
-  "directus_version": "إصدار Directus",
+  "naikinto_version": "إصدار Directus",
   "done": "تم",
   "dont_manage": "لا تقم بالإدارة",
   "dont_manage_copy": "ستتم إزالة الامتيازات والتفضيلات والإعدادات لهذه المجموعة نهائيًا من النظام! هل أنت واثق؟",
@@ -254,8 +254,8 @@
     "datetime_created": "حقل خاص بالنظام لتتبع مدة البيانات التي تم فيها إنشاء عنصر ما ، تستخدمه المراجعات",
     "datetime_updated": "حقل خاص بالنظام لتتبع وقت عنصر تم تحديثه، وتستخدمها المراجعات",
     "decimal": "رقم ذو علامة عشرية",
-    "file": "المفتاح الخارجي ل directus_files.id",
-    "group": "يجمع الحقول من خلال العرض فقط ، يتم الإحتفاظ بالمجموعات الفرعية في directus_fields.group",
+    "file": "المفتاح الخارجي ل naikinto_files.id",
+    "group": "يجمع الحقول من خلال العرض فقط ، يتم الإحتفاظ بالمجموعات الفرعية في naikinto_fields.group",
     "integer": "العدد الصحيح",
     "json": "تنسيق JSON القياسي في استجابة واجهة برمجة التطبيقات",
     "lang": "خاص بواجهات الترجمة ، يخزن مفتاح اللغة",
@@ -483,7 +483,7 @@
   "settings_saved": "تم تخزين الإعدادات",
   "settings_webhooks": "روابط الويب (Webhooks)",
   "setup_2fa": "إعداد خاصية التوثيق الثنائي",
-  "show_directus_collections": "اعرض مجموعات نظام Directus",
+  "show_naikinto_collections": "اعرض مجموعات نظام Directus",
   "signed": "موقّع",
   "sign_in": "تسجيل الدخول",
   "sign_out": "تسجيل الخروج",
@@ -538,7 +538,7 @@
   },
   "welcome": "مرحباً",
   "welcome_to_directus": "مرحباً بك في Directus",
-  "welcome_to_directus_copy": "يرجى التأكد من أن لديك معلومات قاعدة البيانات الخاصة بك في متناول اليد لإعداد مشروعك الأول.",
+  "welcome_to_naikinto_copy": "يرجى التأكد من أن لديك معلومات قاعدة البيانات الخاصة بك في متناول اليد لإعداد مشروعك الأول.",
   "why": "لماذا؟",
   "wrapping_up": "جاري الانتهاء",
   "wrong_super_admin_password": "كلمة السر الخاصة بالمسؤول الأعلى التي قمت بتوفيرها غير صحيحة.",

@@ -50,12 +50,12 @@
   "collection_updated": "Collection Updated",
   "collections_and_fields": "Kollekció & Mezők",
   "collections": {
-    "directus_activity": "Tevékenységek",
-    "directus_files": "Fájlok",
-    "directus_users": "Felhasználók"
+    "naikinto_activity": "Tevékenységek",
+    "naikinto_files": "Fájlok",
+    "naikinto_users": "Felhasználók"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Művelet",
       "collection": "Gyűjtemény",
       "item": "Elem elsődleges kulcsa",
@@ -67,7 +67,7 @@
       "user_agent": "User Agent",
       "comment": "Hozzászólás"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Cím",
       "tags": "Cimkék",
       "location": "Pozíció",
@@ -84,7 +84,7 @@
       "filesize": "File mérete",
       "metadata": "Metadata"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Állapot",
       "first_name": "Családnév",
       "last_name": "Vezetéknév",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Beginning of dialog window.",
   "discard_changes": "Változtatások elvetése",
   "display_name": "Megjelenítendő név",
-  "directus_version": "Directus verzió",
+  "naikinto_version": "Directus verzió",
   "done": "Kész",
   "dont_manage": "Don't Manage",
   "dont_manage_copy": "Privileges, preferences, and settings for this collection will be permanently removed from the system! Are you sure?",
@@ -254,8 +254,8 @@
     "datetime_created": "System field to track the datetime an item was created, used by revisions",
     "datetime_updated": "System field to track the datetime an item was updated, used by revisions",
     "decimal": "Number that includes a decimal",
-    "file": "Foreign key to directus_files.id",
-    "group": "Groups fields together visually, children save group into directus_fields.group",
+    "file": "Foreign key to naikinto_files.id",
+    "group": "Groups fields together visually, children save group into naikinto_fields.group",
     "integer": "Whole number",
     "json": "Standard JSON format in API response",
     "lang": "Specific to translation interfaces, this stores the language key",
@@ -483,7 +483,7 @@
   "settings_saved": "Beállítások mentve",
   "settings_webhooks": "Webhookok",
   "setup_2fa": "Setup 2FA",
-  "show_directus_collections": "Show Directus System Collections",
+  "show_naikinto_collections": "Show Directus System Collections",
   "signed": "Signed",
   "sign_in": "Sign In",
   "sign_out": "Sign Out",
@@ -538,7 +538,7 @@
   },
   "welcome": "Welcome",
   "welcome_to_directus": "Welcome to Directus",
-  "welcome_to_directus_copy": "Please make sure you have your database information handy to set up your first project.",
+  "welcome_to_naikinto_copy": "Please make sure you have your database information handy to set up your first project.",
   "why": "Why?",
   "wrapping_up": "Wrapping Up",
   "wrong_super_admin_password": "The super admin password you provided is incorrect.",

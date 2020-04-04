@@ -62,11 +62,11 @@ export async function getCollections({ commit }) {
 	forEach(collections, updateTranslations);
 
 	/*
-	 * directus_settings uses a different format for the values. Instead of
+	 * naikinto_settings uses a different format for the values. Instead of
 	 * field = column, here field = row. This is done to prevent having to create
 	 * new columns for each new setting that's saved (there's only 1 row).
 	 *
-	 * /collections returns the actual database fields for directus_settings.
+	 * /collections returns the actual database fields for naikinto_settings.
 	 * In order for the app to use the correct fields for the settings, we have to
 	 * fetch the "fields" separate from a dedicated endpoint and augment the collections
 	 * value with this.
@@ -75,7 +75,7 @@ export async function getCollections({ commit }) {
 	const { data: settingsFields } = await api.getSettingsFields();
 
 	collections = keyBy(collections, 'collection');
-	collections.directus_settings.fields = keyBy(settingsFields, 'field');
+	collections.naikinto_settings.fields = keyBy(settingsFields, 'field');
 
 	commit(SET_COLLECTIONS, collections);
 }

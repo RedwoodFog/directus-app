@@ -1,6 +1,6 @@
 <template>
 	<v-notice v-if="hasAllRequiredFields === false">
-		File preview can only be used on directus_files.
+		File preview can only be used on naikinto_files.
 	</v-notice>
 	<div v-else>
 		<div v-if="isImage" class="image">

@@ -50,12 +50,12 @@
   "collection_updated": "Колекцію оновлено",
   "collections_and_fields": "Колекції та поля",
   "collections": {
-    "directus_activity": "Активність",
-    "directus_files": "Файли",
-    "directus_users": "Користувачі"
+    "naikinto_activity": "Активність",
+    "naikinto_files": "Файли",
+    "naikinto_users": "Користувачі"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Дія",
       "collection": "Колекція",
       "item": "Первинний ключ елемента",
@@ -67,7 +67,7 @@
       "user_agent": "Ідентифікатор браузера",
       "comment": "Коментар"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Заголовок",
       "tags": "Теги",
       "location": "Розташування",
@@ -84,7 +84,7 @@
       "filesize": "Розмір файлу",
       "metadata": "Метадані"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Статус",
       "first_name": "Ім'я",
       "last_name": "Прізвище",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Початок діалогового вікна.",
   "discard_changes": "Скасувати зміни",
   "display_name": "Відображувана назва",
-  "directus_version": "Версія Directus",
+  "naikinto_version": "Версія Directus",
   "done": "Готово",
   "dont_manage": "Вимкнути",
   "dont_manage_copy": "Привілеї, налаштування та налаштування колекції будуть назавжди видалені з системи! Ви впевнені?",
@@ -254,8 +254,8 @@
     "datetime_created": "Системне поле для відстеження дати, коли елемент було створено, використовуваний редакціями",
     "datetime_updated": "Система поле відслідковування дати, елемент був оновлений, використовуваний редакціями",
     "decimal": "Число, яке включає десятковий",
-    "file": "Зовнішній ключ до directus_files.id",
-    "group": "Групи гуртуються візуально,діти зберігають групу в directus_fields.group",
+    "file": "Зовнішній ключ до naikinto_files.id",
+    "group": "Групи гуртуються візуально,діти зберігають групу в naikinto_fields.group",
     "integer": "Ціле число",
     "json": "Стандартний формат JSON в API відповіді",
     "lang": "Характерно для інтерфейсного перекладу, тут зберігається мовний ключ",
@@ -483,7 +483,7 @@
   "settings_saved": "Налаштування збережено",
   "settings_webhooks": "Вебхуки",
   "setup_2fa": "Налаштування 2FA",
-  "show_directus_collections": "Показати системні колеції Directus",
+  "show_naikinto_collections": "Показати системні колеції Directus",
   "signed": "Підписано",
   "sign_in": "Вхід",
   "sign_out": "Вихід",
@@ -538,7 +538,7 @@
   },
   "welcome": "Вітаємо",
   "welcome_to_directus": "Вітаємо в Directus",
-  "welcome_to_directus_copy": "Майте під рукою дані вашої бази даних щоб налаштувати ваш перший проект.",
+  "welcome_to_naikinto_copy": "Майте під рукою дані вашої бази даних щоб налаштувати ваш перший проект.",
   "why": "Чому?",
   "wrapping_up": "Wrapping Up",
   "wrong_super_admin_password": "Невірний пароль супер адміністратора.",

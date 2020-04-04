@@ -24,7 +24,7 @@
 			:icon-link="iconLink"
 			:icon="singleItem ? collectionInfo.icon || 'box' : 'arrow_back'"
 			item-detail
-			:settings="collection === 'directus_webhooks'"
+			:settings="collection === 'naikinto_webhooks'"
 		>
 			<template v-if="status" slot="title">
 				<span
@@ -186,7 +186,7 @@ import { mapValues, findIndex, find, merge, forEach, keyBy } from 'lodash';
 export default {
 	name: 'Edit',
 	metaInfo() {
-		const collection = this.collection.startsWith('directus_')
+		const collection = this.collection.startsWith('naikinto_')
 			? this.$helpers.formatTitle(this.collection.substr(9))
 			: this.$helpers.formatTitle(this.collection);
 
@@ -249,17 +249,17 @@ export default {
 	computed: {
 		...mapState(['currentProjectKey']),
 		collection() {
-			if (this.$route.path.includes('settings/webhooks')) return 'directus_webhooks';
+			if (this.$route.path.includes('settings/webhooks')) return 'naikinto_webhooks';
 			return this.$route.params.collection;
 		},
 		iconLink() {
 			if (this.singleItem) return null;
 
-			if (this.collection === 'directus_webhooks') {
+			if (this.collection === 'naikinto_webhooks') {
 				return `/${this.currentProjectKey}/settings/webhooks`;
 			}
 
-			if (this.collection.startsWith('directus_')) {
+			if (this.collection.startsWith('naikinto_')) {
 				return `/${this.currentProjectKey}/${this.collection.substring(9)}`;
 			}
 
@@ -295,7 +295,7 @@ export default {
 			};
 		},
 		breadcrumb() {
-			if (this.collection === 'directus_users') {
+			if (this.collection === 'naikinto_users') {
 				let crumbName = this.$t('editing_item');
 				if (this.primaryKey == this.$store.state.currentUser.id) {
 					crumbName = this.$t('editing_my_profile');
@@ -315,7 +315,7 @@ export default {
 				];
 			}
 
-			if (this.collection === 'directus_files') {
+			if (this.collection === 'naikinto_files') {
 				return [
 					{
 						name: this.$t('file_library'),
@@ -328,7 +328,7 @@ export default {
 				];
 			}
 
-			if (this.collection === 'directus_webhooks') {
+			if (this.collection === 'naikinto_webhooks') {
 				return [
 					{
 						name: this.$t('settings'),
@@ -362,7 +362,7 @@ export default {
 
 			const breadcrumb = [];
 
-			if (this.collection.startsWith('directus_')) {
+			if (this.collection.startsWith('naikinto_')) {
 				breadcrumb.push({
 					name: this.$helpers.formatTitle(this.collection.substr(9)),
 					path: `/${this.currentProjectKey}/${this.collection.substring(9)}`
@@ -432,7 +432,7 @@ export default {
 			};
 		},
 		activityDetail() {
-			return this.collection === 'directus_activity';
+			return this.collection === 'naikinto_activity';
 		},
 		editing() {
 			return this.$store.getters.editing;
@@ -629,7 +629,7 @@ export default {
 
 					let linkTo = `/${this.currentProjectKey}/collections/${this.collection}`;
 
-					if (this.collection.startsWith('directus_') === true) {
+					if (this.collection.startsWith('naikinto_') === true) {
 						linkTo = `/${this.currentProjectKey}/${this.collection.substring(9)}`;
 					}
 
@@ -685,13 +685,13 @@ export default {
 							iconMain: 'check'
 						});
 
-						if (this.collection === 'directus_webhooks') {
+						if (this.collection === 'naikinto_webhooks') {
 							return this.$router.push(
 								`/${this.currentProjectKey}/settings/webhooks/${pk}`
 							);
 						}
 
-						if (this.collection.startsWith('directus_')) {
+						if (this.collection.startsWith('naikinto_')) {
 							return this.$router.push(
 								`/${this.currentProjectKey}/${this.collection.substring(9)}/${pk}`
 							);
@@ -734,13 +734,13 @@ export default {
 					});
 
 					if (method === 'leave') {
-						if (this.collection === 'directus_webhooks') {
+						if (this.collection === 'naikinto_webhooks') {
 							return this.$router.push(
 								`/${this.currentProjectKey}/settings/webhooks`
 							);
 						}
 
-						if (this.collection.startsWith('directus_')) {
+						if (this.collection.startsWith('naikinto_')) {
 							return this.$router.push(
 								`/${this.currentProjectKey}/${this.collection.substring(9)}`
 							);
@@ -757,13 +757,13 @@ export default {
 						if (this.newItem) {
 							const primaryKey = savedValues[this.primaryKeyField];
 
-							if (this.collection === 'directus_webhooks') {
+							if (this.collection === 'naikinto_webhooks') {
 								return this.$router.push(
 									`/${this.currentProjectKey}/settings/webhooks/${primaryKey}`
 								);
 							}
 
-							if (this.collection.startsWith('directus_')) {
+							if (this.collection.startsWith('naikinto_')) {
 								return this.$router.push(
 									`/${this.currentProjectKey}/${this.collection.substring(
 										9
@@ -961,10 +961,10 @@ export default {
 	beforeRouteEnter(to, from, next) {
 		let { collection, primaryKey } = to.params;
 
-		if (!collection && to.path.includes('settings/webhooks')) collection = 'directus_webhooks';
+		if (!collection && to.path.includes('settings/webhooks')) collection = 'naikinto_webhooks';
 		const exists =
 			Object.keys(store.state.collections).includes(collection) ||
-			collection.startsWith('directus_');
+			collection.startsWith('naikinto_');
 		const isNew = primaryKey === '+';
 
 		if (exists === false) {
@@ -1013,7 +1013,7 @@ export default {
 		const { collection, primaryKey } = to.params;
 		const exists =
 			Object.keys(this.$store.state.collections).includes(collection) ||
-			collection.startsWith('directus_');
+			collection.startsWith('naikinto_');
 		const isNew = primaryKey === '+';
 
 		this.saving = false;

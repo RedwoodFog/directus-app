@@ -50,12 +50,12 @@
   "collection_updated": "Collezione aggiornata",
   "collections_and_fields": "Collezione e campi",
   "collections": {
-    "directus_activity": "Attività",
-    "directus_files": "File",
-    "directus_users": "Utenti"
+    "naikinto_activity": "Attività",
+    "naikinto_files": "File",
+    "naikinto_users": "Utenti"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Azioni",
       "collection": "Collezione",
       "item": "Chiave primaria elemento",
@@ -67,7 +67,7 @@
       "user_agent": "User agent",
       "comment": "Commento"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Titolo",
       "tags": "Tags",
       "location": "Percorso",
@@ -84,7 +84,7 @@
       "filesize": "Dimensione file",
       "metadata": "Metadati"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Stato",
       "first_name": "Nome",
       "last_name": "Cognome",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Inizio della finestra di dialogo.",
   "discard_changes": "Non salvare le modifiche",
   "display_name": "Nome da visualizzare",
-  "directus_version": "Versione di Directus",
+  "naikinto_version": "Versione di Directus",
   "done": "Fatto",
   "dont_manage": "Non gestire",
   "dont_manage_copy": "Privilegi, preferenze e impostazioni per la collezione selezionata verranno rimossi permanentemente dal sistema! Sei sicuro?",
@@ -254,8 +254,8 @@
     "datetime_created": "Campo di sistema per tracciare il datetime creato da un articolo, utilizzato dalle revisioni",
     "datetime_updated": "Campo di sistema per tracciare il datetime di un articolo è stato aggiornato, utilizzato dalle revisioni",
     "decimal": "Numero che include un decimale",
-    "file": "Chiave esterna per directus_files.id",
-    "group": "Raggruppa i campi insieme visivamente, i bambini salvano il gruppo in directus_fields.group",
+    "file": "Chiave esterna per naikinto_files.id",
+    "group": "Raggruppa i campi insieme visivamente, i bambini salvano il gruppo in naikinto_fields.group",
     "integer": "Numero intero",
     "json": "Formato JSON standard nella risposta API",
     "lang": "Specifico per le interfacce di traduzione, questo memorizza la chiave della lingua",
@@ -483,7 +483,7 @@
   "settings_saved": "Impostazioni Salvate",
   "settings_webhooks": "Webhooks",
   "setup_2fa": "Configura 2FA",
-  "show_directus_collections": "Mostra le collezioni del sistema di Directus",
+  "show_naikinto_collections": "Mostra le collezioni del sistema di Directus",
   "signed": "Signed",
   "sign_in": "Registrati",
   "sign_out": "Disconnessione",
@@ -538,7 +538,7 @@
   },
   "welcome": "benvenuto",
   "welcome_to_directus": "Benvenuto in Directus",
-  "welcome_to_directus_copy": "Per favore assicurati di avere le informazioni necessarie del tuo database per creare il tuo primo progetto.",
+  "welcome_to_naikinto_copy": "Per favore assicurati di avere le informazioni necessarie del tuo database per creare il tuo primo progetto.",
   "why": "Perché?",
   "wrapping_up": "Wrapping",
   "wrong_super_admin_password": "La password del super-admin che hai inserito non è corretta.",

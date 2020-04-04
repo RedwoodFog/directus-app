@@ -89,7 +89,7 @@
 			v-if="fields"
 			:fields="directusFields"
 			:values="values"
-			collection="directus_collections"
+			collection="naikinto_collections"
 			@stage-value="stageValue"
 		/>
 
@@ -566,7 +566,7 @@ export default {
 		store.dispatch('loadingStart', { id });
 
 		return Promise.all([
-			api.getFields('directus_collections'),
+			api.getFields('naikinto_collections'),
 			api.getFields(collection, {
 				sort: 'sort'
 			})

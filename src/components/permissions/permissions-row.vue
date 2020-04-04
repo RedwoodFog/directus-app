@@ -443,7 +443,7 @@ export default {
 		},
 		permissionOptions() {
 			// To provide all options for core table as well as those collections which contains usercreated field
-			return this.userCreatedField || this.permissionName.startsWith('directus_')
+			return this.userCreatedField || this.permissionName.startsWith('naikinto_')
 				? ['none', 'mine', 'role', 'full']
 				: ['none', 'full'];
 		}

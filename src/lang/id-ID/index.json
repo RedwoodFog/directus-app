@@ -50,12 +50,12 @@
   "collection_updated": "Collection Updated",
   "collections_and_fields": "Pengumpulan & Bidang",
   "collections": {
-    "directus_activity": "Aktivitas",
-    "directus_files": "Berkas",
-    "directus_users": "Pengguna"
+    "naikinto_activity": "Aktivitas",
+    "naikinto_files": "Berkas",
+    "naikinto_users": "Pengguna"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Aksi",
       "collection": "Koleksi",
       "item": "Item Primary Key",
@@ -67,7 +67,7 @@
       "user_agent": "Agen pengguna",
       "comment": "Komentar"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Judul",
       "tags": "Tags",
       "location": "Location",
@@ -84,7 +84,7 @@
       "filesize": "Ukuran berkas",
       "metadata": "Metadata"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Status",
       "first_name": "Nama Depan",
       "last_name": "Nama belakang",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Permulaan jendela dialog.",
   "discard_changes": "Batalkan Perubahan",
   "display_name": "Nama Tampilan",
-  "directus_version": "Versi Directus",
+  "naikinto_version": "Versi Directus",
   "done": "Selesai",
   "dont_manage": "Jangan Kelola",
   "dont_manage_copy": "Privileges, preferences, and settings for this collection will be permanently removed from the system! Are you sure?",
@@ -254,8 +254,8 @@
     "datetime_created": "Bidang sistem untuk melacak kapan sebuah item dibuat, digunakan dalam revisi",
     "datetime_updated": "Bidang sistem untuk melacak kapan sebuah item diperbarui, digunakan dalam revisi",
     "decimal": "Angka yang mencangkup desimal",
-    "file": "Foreign key untuk directus_files.id",
-    "group": "Bidang yang terkelompok secara visual, children menyimpan grup ke dalam directus_fields.group",
+    "file": "Foreign key untuk naikinto_files.id",
+    "group": "Bidang yang terkelompok secara visual, children menyimpan grup ke dalam naikinto_fields.group",
     "integer": "Seluruh bilangan bulat",
     "json": "Format JSON standar dalam respon API",
     "lang": "Hanya pada antarmuka penterjemahan, yang menyimpan key bahasa",
@@ -483,7 +483,7 @@
   "settings_saved": "Pengaturan Tersimpan",
   "settings_webhooks": "Webhooks",
   "setup_2fa": "Setup 2FA",
-  "show_directus_collections": "Tampilkan Pengumpulan Sistem Directus",
+  "show_naikinto_collections": "Tampilkan Pengumpulan Sistem Directus",
   "signed": "Signed",
   "sign_in": "Masuk",
   "sign_out": "Keluar",
@@ -538,7 +538,7 @@
   },
   "welcome": "Selamat Datang",
   "welcome_to_directus": "Welcome to Directus",
-  "welcome_to_directus_copy": "Please make sure you have your database information handy to set up your first project.",
+  "welcome_to_naikinto_copy": "Please make sure you have your database information handy to set up your first project.",
   "why": "Why?",
   "wrapping_up": "Wrapping Up",
   "wrong_super_admin_password": "The super admin password you provided is incorrect.",

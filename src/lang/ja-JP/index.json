@@ -50,12 +50,12 @@
   "collection_updated": "コレクションが更新されました",
   "collections_and_fields": "コレクション・入力欄",
   "collections": {
-    "directus_activity": "操作履歴",
-    "directus_files": "ファイル",
-    "directus_users": "Users"
+    "naikinto_activity": "操作履歴",
+    "naikinto_files": "ファイル",
+    "naikinto_users": "Users"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Action",
       "collection": "Collection",
       "item": "Item Primary Key",
@@ -67,7 +67,7 @@
       "user_agent": "User Agent",
       "comment": "コメント"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "標題",
       "tags": "Tags",
       "location": "Location",
@@ -84,7 +84,7 @@
       "filesize": "Filesize",
       "metadata": "Metadata"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "状態",
       "first_name": "名",
       "last_name": "姓",
@@ -180,7 +180,7 @@
   "dialog_beginning": "ダイアログの始まり",
   "discard_changes": "変更の破棄",
   "display_name": "表示名",
-  "directus_version": "Directus Version",
+  "naikinto_version": "Directus Version",
   "done": "完了",
   "dont_manage": "管理しない",
   "dont_manage_copy": "このコレクションの特権、設定、設定はシステムから完全に削除されます！よろしいですか？",
@@ -254,8 +254,8 @@
     "datetime_created": "項目が作成された日時を追跡するためのシステムフィールドで、リビジョンによって使用されます",
     "datetime_updated": "項目が更新された日時を追跡するためのシステムフィールドで、リビジョンによって使用されます",
     "decimal": "少数を含む数値",
-    "file": "directus_files.idの外部キー",
-    "group": "フィールドを視覚的にグループ化し、子要素は directus_fields.group に保存されます",
+    "file": "naikinto_files.idの外部キー",
+    "group": "フィールドを視覚的にグループ化し、子要素は naikinto_fields.group に保存されます",
     "integer": "整数",
     "json": "APIレスポンスに含まれる標準的なJSON",
     "lang": "翻訳インターフェースを指定します。言語キーが保存されます",
@@ -483,7 +483,7 @@
   "settings_saved": "設定は保存されました",
   "settings_webhooks": "Webhook",
   "setup_2fa": "2段階認証の設定",
-  "show_directus_collections": "Directusシステムのコレクションを表示",
+  "show_naikinto_collections": "Directusシステムのコレクションを表示",
   "signed": "Signed",
   "sign_in": "サインイン",
   "sign_out": "サインアウト",
@@ -538,7 +538,7 @@
   },
   "welcome": "ようこそ",
   "welcome_to_directus": "Directusへようこそ",
-  "welcome_to_directus_copy": "最初のプロジェクトをセットアップするために、データベース情報が手元にあることを確認してください。",
+  "welcome_to_naikinto_copy": "最初のプロジェクトをセットアップするために、データベース情報が手元にあることを確認してください。",
   "why": "なぜ？",
   "wrapping_up": "まとめ",
   "wrong_super_admin_password": "最高管理者のパスワードが間違っています。",

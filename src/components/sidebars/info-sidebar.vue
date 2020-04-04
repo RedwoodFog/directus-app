@@ -60,7 +60,7 @@ export default {
 			permissions: state => state.permissions
 		}),
 		canReadActivity() {
-			return this.permissions.directus_activity.read !== 'none';
+			return this.permissions.naikinto_activity.read !== 'none';
 		}
 	},
 	created() {

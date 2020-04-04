@@ -60,7 +60,7 @@
 							class="preview-col"
 							interface-type="file"
 							name="thumbnail"
-							collection="directus_files"
+							collection="naikinto_files"
 							type="JSON"
 							datatype="TEXT"
 							:value="item[junctionRelatedKey]"
@@ -527,7 +527,7 @@ export default {
 					) {
 						// Seeing that the file is uploaded and therefore created before the current item is saved
 						// we only have to save the id of the file for the junction row
-						// NOTE: we could hardcode primarykey to `id` since this is made to work with directus_files only
+						// NOTE: we could hardcode primarykey to `id` since this is made to work with naikinto_files only
 						return {
 							[this.junctionRelatedKey]: {
 								[this.relatedPrimaryKeyField]:

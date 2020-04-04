@@ -158,8 +158,8 @@ export default {
 			});
 
 			if (
-				this.permissions.directus_users.read !== 'none' ||
-				this.permissions.directus_users.read !== 'mine'
+				this.permissions.naikinto_users.read !== 'none' ||
+				this.permissions.naikinto_users.read !== 'mine'
 			) {
 				modules.push({
 					link: `/${this.currentProjectKey}/users`,
@@ -168,7 +168,7 @@ export default {
 				});
 			}
 
-			if (this.permissions.directus_files.read !== 'none') {
+			if (this.permissions.naikinto_files.read !== 'none') {
 				modules.push({
 					link: `/${this.currentProjectKey}/files`,
 					name: this.$t('file_library'),

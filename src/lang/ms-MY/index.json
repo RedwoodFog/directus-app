@@ -50,12 +50,12 @@
   "collection_updated": "Koleksi Dikemaskini",
   "collections_and_fields": "Koleksi & Medan",
   "collections": {
-    "directus_activity": "Aktiviti",
-    "directus_files": "Fail-fail",
-    "directus_users": "Pengguna-pengguna"
+    "naikinto_activity": "Aktiviti",
+    "naikinto_files": "Fail-fail",
+    "naikinto_users": "Pengguna-pengguna"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Tindakan",
       "collection": "Koleksi",
       "item": "Item Primary Key",
@@ -67,7 +67,7 @@
       "user_agent": "User Agent",
       "comment": "Komen"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Tajuk",
       "tags": "Tag",
       "location": "Lokasi",
@@ -84,7 +84,7 @@
       "filesize": "Filesize",
       "metadata": "Metadata"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Status",
       "first_name": "Nama pertama",
       "last_name": "Last Name",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Permulaan bagi tetingkap dialog",
   "discard_changes": "Buang Perubahan",
   "display_name": "Paparkan Nama",
-  "directus_version": "Directus Version",
+  "naikinto_version": "Directus Version",
   "done": "Done",
   "dont_manage": "Jangan Urus",
   "dont_manage_copy": "Privileges, preferences, and settings for this collection will be permanently removed from the system! Are you sure?",
@@ -254,8 +254,8 @@
     "datetime_created": "Medan sistem untuk menjejaki tarikhmasa benda yang dibuat, digunakan untuk semakan",
     "datetime_updated": "Medan sistem untuk menjejaki tarikhmasa benda yang dikemasikini, digunakan untuk semakan",
     "decimal": "Nombor yang ada perpuluhan",
-    "file": "Kunci asing ke directus_files.id",
-    "group": "Kumpulkan medan secara visual, kumpulan kanak-kanak tersimpan ke dalam directus_fields.group",
+    "file": "Kunci asing ke naikinto_files.id",
+    "group": "Kumpulkan medan secara visual, kumpulan kanak-kanak tersimpan ke dalam naikinto_fields.group",
     "integer": "Nombor bulat",
     "json": "Standard JSON format in API response Respons API dalam format JSON standard",
     "lang": "Khusus untuk antaramuka penterjemahan, ini menyimpan kekunci bahasa",
@@ -483,7 +483,7 @@
   "settings_saved": "Settings Saved Tetapan Disimpan",
   "settings_webhooks": "Webhooks",
   "setup_2fa": "Setup 2FA",
-  "show_directus_collections": "Tunjukkan Koleksi Sistem Directus",
+  "show_naikinto_collections": "Tunjukkan Koleksi Sistem Directus",
   "signed": "Signed",
   "sign_in": "Masuk",
   "sign_out": "Keluar",
@@ -538,7 +538,7 @@
   },
   "welcome": "Selamat Datang",
   "welcome_to_directus": "Welcome to Directus",
-  "welcome_to_directus_copy": "Please make sure you have your database information handy to set up your first project.",
+  "welcome_to_naikinto_copy": "Please make sure you have your database information handy to set up your first project.",
   "why": "Why?",
   "wrapping_up": "Wrapping Up",
   "wrong_super_admin_password": "The super admin password you provided is incorrect.",

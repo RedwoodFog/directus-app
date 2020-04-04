@@ -50,12 +50,12 @@
   "collection_updated": "Kolekce aktualizována",
   "collections_and_fields": "Kategorie a pole",
   "collections": {
-    "directus_activity": "Aktivita",
-    "directus_files": "Soubory",
-    "directus_users": "Uživatelé"
+    "naikinto_activity": "Aktivita",
+    "naikinto_files": "Soubory",
+    "naikinto_users": "Uživatelé"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Akce",
       "collection": "Kategorie",
       "item": "Primární klíč položky",
@@ -67,7 +67,7 @@
       "user_agent": "User Agent",
       "comment": "Komentář"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Title",
       "tags": "Štítky",
       "location": "Poloha",
@@ -84,7 +84,7 @@
       "filesize": "Velikost souboru",
       "metadata": "Metadata"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Stav",
       "first_name": "Křestní jméno",
       "last_name": "Příjmení",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Začátek dialogového okna.",
   "discard_changes": "Ano, odejít bez uložení",
   "display_name": "Zobrazit jméno",
-  "directus_version": "Verze Directusu",
+  "naikinto_version": "Verze Directusu",
   "done": "Hotovo",
   "dont_manage": "Nespravovat",
   "dont_manage_copy": "Privilegia, předvolby a nastavení této kolekce budou ze systému trvale odstraněny! Jste si jistý/á?",
@@ -254,8 +254,8 @@
     "datetime_created": "Systémové pole pro sledování data a času vytvořené položky, používáno pro revize",
     "datetime_updated": "Systémové pole pro sledování data a času aktualizované položky, používáno pro revize",
     "decimal": "Číslo, které obsahuje desetinné číslo",
-    "file": "Cizí klíč k directus_files.id",
-    "group": "Skupiny polí, které jsou vizuálně svázány. Potomci skupin jsou uloženi do directus_fields.group",
+    "file": "Cizí klíč k naikinto_files.id",
+    "group": "Skupiny polí, které jsou vizuálně svázány. Potomci skupin jsou uloženi do naikinto_fields.group",
     "integer": "Celé číslo",
     "json": "Standardní JSON formát v API odpovědi",
     "lang": "Specifické pro překladová rozhraní, toto ukládá klíč jazyka",
@@ -483,7 +483,7 @@
   "settings_saved": "Nastavení uložena",
   "settings_webhooks": "Webhooky",
   "setup_2fa": "Nastavení 2FA",
-  "show_directus_collections": "Zobrazit kategorie systému Directus",
+  "show_naikinto_collections": "Zobrazit kategorie systému Directus",
   "signed": "Signed",
   "sign_in": "Přihlásit se",
   "sign_out": "Odhlásit se",
@@ -538,7 +538,7 @@
   },
   "welcome": "Vítejte",
   "welcome_to_directus": "Vítejte v aplikaci Directus",
-  "welcome_to_directus_copy": "Ujistěte se prosím, že máte k dispozici informace o Vaší databázi, které se Vám budou hodit pro nastavení prvního projektu.",
+  "welcome_to_naikinto_copy": "Ujistěte se prosím, že máte k dispozici informace o Vaší databázi, které se Vám budou hodit pro nastavení prvního projektu.",
   "why": "Proč?",
   "wrapping_up": "Dokončování",
   "wrong_super_admin_password": "Zadané super administrátorské heslo není správné.",

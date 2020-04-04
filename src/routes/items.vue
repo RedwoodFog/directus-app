@@ -6,10 +6,10 @@
 			:item-detail="false"
 			:breadcrumb="breadcrumb"
 			:icon="breadcrumbIcon"
-			:settings="collection === 'directus_webhooks'"
+			:settings="collection === 'naikinto_webhooks'"
 			:title="currentBookmark && currentBookmark.title"
 			:icon-link="
-				collection === 'directus_webhooks' ? `/${currentProjectKey}/settings/` : null
+				collection === 'naikinto_webhooks' ? `/${currentProjectKey}/settings/` : null
 			"
 		>
 			<template slot="title">
@@ -188,25 +188,25 @@ export default {
 	computed: {
 		...mapState(['currentProjectKey']),
 		activity() {
-			return this.collection === 'directus_activity';
+			return this.collection === 'naikinto_activity';
 		},
 		breadcrumbIcon() {
-			if (this.collection === 'directus_webhooks') return 'arrow_back';
+			if (this.collection === 'naikinto_webhooks') return 'arrow_back';
 			return this.collectionInfo?.icon || 'box';
 		},
 		createLink() {
-			if (this.collection === 'directus_webhooks') {
+			if (this.collection === 'naikinto_webhooks') {
 				return `/${this.currentProjectKey}/settings/webhooks/+`;
 			}
 
-			if (this.collection.startsWith('directus_')) {
+			if (this.collection.startsWith('naikinto_')) {
 				return `/${this.currentProjectKey}/${this.collection.substr(9)}/+`;
 			}
 
 			return `/${this.currentProjectKey}/collections/${this.collection}/+`;
 		},
 		breadcrumb() {
-			if (this.collection === 'directus_users') {
+			if (this.collection === 'naikinto_users') {
 				return [
 					{
 						name: this.$t('user_directory'),
@@ -215,7 +215,7 @@ export default {
 				];
 			}
 
-			if (this.collection === 'directus_webhooks') {
+			if (this.collection === 'naikinto_webhooks') {
 				return [
 					{
 						name: this.$t('settings'),
@@ -228,7 +228,7 @@ export default {
 				];
 			}
 
-			if (this.collection === 'directus_files') {
+			if (this.collection === 'naikinto_files') {
 				return [
 					{
 						name: this.$t('file_library'),
@@ -237,7 +237,7 @@ export default {
 				];
 			}
 
-			if (this.collection.startsWith('directus_')) {
+			if (this.collection.startsWith('naikinto_')) {
 				return [
 					{
 						name: this.$helpers.formatTitle(this.collection.substr(9)),
@@ -300,7 +300,7 @@ export default {
 			return currentBookmark || null;
 		},
 		collection() {
-			if (this.$route.path.endsWith('webhooks')) return 'directus_webhooks';
+			if (this.$route.path.endsWith('webhooks')) return 'naikinto_webhooks';
 			return this.$route.params.collection;
 		},
 		collectionInfo() {
@@ -684,11 +684,11 @@ export default {
 	beforeRouteEnter(to, from, next) {
 		let { collection } = to.params;
 
-		if (to.path.endsWith('webhooks')) collection = 'directus_webhooks';
+		if (to.path.endsWith('webhooks')) collection = 'naikinto_webhooks';
 
 		const collectionInfo = store.state.collections[collection] || null;
 
-		if (collection.startsWith('directus_') === false && collectionInfo === null) {
+		if (collection.startsWith('naikinto_') === false && collectionInfo === null) {
 			return next(vm => (vm.notFound = true));
 		}
 
@@ -725,7 +725,7 @@ export default {
 
 		const collectionInfo = this.$store.state.collections[collection] || null;
 
-		if (collection.startsWith('directus_') === false && collectionInfo === null) {
+		if (collection.startsWith('naikinto_') === false && collectionInfo === null) {
 			this.notFound = true;
 			return next();
 		}

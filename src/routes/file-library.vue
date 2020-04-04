@@ -20,7 +20,7 @@
 				:filters="filters"
 				:search-query="searchQuery"
 				:field-names="filterableFieldNames"
-				collection-name="directus_files"
+				collection-name="naikinto_files"
 				:placeholder="resultCopy"
 				@filter="updatePreferences('filters', $event)"
 				@search="updatePreferences('search_query', $event)"
@@ -231,7 +231,7 @@ export default {
 			return currentBookmark || null;
 		},
 		collection() {
-			return 'directus_files';
+			return 'naikinto_files';
 		},
 		emptyCollection() {
 			return (this.meta && this.meta.total_count === 0) || false;
@@ -438,11 +438,11 @@ export default {
 		}
 	},
 	beforeRouteEnter(to, from, next) {
-		const collection = 'directus_files';
+		const collection = 'naikinto_files';
 
 		const collectionInfo = store.state.collections[collection] || null;
 
-		if (collection.startsWith('directus_') === false && collectionInfo === null) {
+		if (collection.startsWith('naikinto_') === false && collectionInfo === null) {
 			return next(vm => (vm.notFound = true));
 		}
 
@@ -472,7 +472,7 @@ export default {
 			});
 	},
 	beforeRouteUpdate(to, from, next) {
-		const collection = 'directus_files';
+		const collection = 'naikinto_files';
 
 		this.preferences = null;
 		this.selection = [];
@@ -481,7 +481,7 @@ export default {
 
 		const collectionInfo = this.$store.state.collections[collection] || null;
 
-		if (collection.startsWith('directus_') === false && collectionInfo === null) {
+		if (collection.startsWith('naikinto_') === false && collectionInfo === null) {
 			this.notFound = true;
 			return next();
 		}

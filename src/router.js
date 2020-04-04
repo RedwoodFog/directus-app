@@ -87,7 +87,7 @@ const router = new Router({
 
 				const { search_query, filters, view_query, view_options, view_type } = bookmark;
 
-				api.getItems('directus_collection_presets', {
+				api.getItems('naikinto_collection_presets', {
 					'filter[user][eq]': store.state.currentUser.id,
 					'filter[title][null]': 1,
 					'filter[collection][eq]': collection,
@@ -98,7 +98,7 @@ const router = new Router({
 					.then(userPreferences => {
 						if (userPreferences) {
 							return api.updateItem(
-								'directus_collection_presets',
+								'naikinto_collection_presets',
 								userPreferences.id,
 								{
 									search_query,
@@ -135,7 +135,7 @@ const router = new Router({
 			component: FileLibrary
 		},
 		{
-			path: '/:project/collections/directus_files/:primaryKey',
+			path: '/:project/collections/naikinto_files/:primaryKey',
 			component: Item,
 			alias: '/:project/files/:primaryKey',
 			meta: {
@@ -143,12 +143,12 @@ const router = new Router({
 			}
 		},
 		{
-			path: '/:project/collections/directus_users',
+			path: '/:project/collections/naikinto_users',
 			component: Items,
 			alias: '/:project/users'
 		},
 		{
-			path: '/:project/collections/directus_users/:primaryKey',
+			path: '/:project/collections/naikinto_users/:primaryKey',
 			component: Item,
 			alias: '/:project/users/:primaryKey',
 			meta: {
@@ -156,12 +156,12 @@ const router = new Router({
 			}
 		},
 		{
-			path: '/:project/collections/directus_activity',
+			path: '/:project/collections/naikinto_activity',
 			component: Items,
 			alias: '/:project/activity'
 		},
 		{
-			path: '/:project/collections/directus_activity/:primaryKey',
+			path: '/:project/collections/naikinto_activity/:primaryKey',
 			component: Item,
 			alias: '/:project/activity/:primaryKey'
 		},

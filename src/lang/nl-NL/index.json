@@ -50,12 +50,12 @@
   "collection_updated": "Collectie Geüpdatet",
   "collections_and_fields": "Collecties & Velden",
   "collections": {
-    "directus_activity": "Activiteit",
-    "directus_files": "Bestanden",
-    "directus_users": "Gebruikers"
+    "naikinto_activity": "Activiteit",
+    "naikinto_files": "Bestanden",
+    "naikinto_users": "Gebruikers"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Actie",
       "collection": "Collectie",
       "item": "Item Primary Key",
@@ -67,7 +67,7 @@
       "user_agent": "User Agent",
       "comment": "Reactie"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Titel",
       "tags": "Tags",
       "location": "Locatie",
@@ -84,7 +84,7 @@
       "filesize": "Bestandsgrootte",
       "metadata": "Metadata"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Status",
       "first_name": "Voornaam",
       "last_name": "Achternaam",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Start van het dialoog scherm.",
   "discard_changes": "Wijzigingen ongedaan maken",
   "display_name": "Getoonde naam",
-  "directus_version": "Directus Versie",
+  "naikinto_version": "Directus Versie",
   "done": "Klaar",
   "dont_manage": "Beheer niet",
   "dont_manage_copy": "Permissies, voorkeuren en instellingen voor deze collectie worden permanent verwijderd. Weet je dit zeker?",
@@ -254,7 +254,7 @@
     "datetime_created": "Datum en tijd wanneer het item werd aangemaakt.",
     "datetime_updated": "Datum en tijd wanneer het item werd geüpdatet.",
     "decimal": "Nummer met decimalen",
-    "file": "Foreign key naar directus_files.id",
+    "file": "Foreign key naar naikinto_files.id",
     "group": "Groepeer andere velden.",
     "integer": "Nummer zonder decimalen",
     "json": "JSON object in de API resultaten",
@@ -483,7 +483,7 @@
   "settings_saved": "Settings opgeslagen",
   "settings_webhooks": "Webhooks",
   "setup_2fa": "Installatie 2FA",
-  "show_directus_collections": "Toon Directus systeem collecties",
+  "show_naikinto_collections": "Toon Directus systeem collecties",
   "signed": "Getekend",
   "sign_in": "Log in",
   "sign_out": "Log out",
@@ -538,7 +538,7 @@
   },
   "welcome": "Welkom",
   "welcome_to_directus": "Welkom bij Directus",
-  "welcome_to_directus_copy": "Zorg ervoor dat je de database informatie bij de hand hebt om je eerste project in te stellen.",
+  "welcome_to_naikinto_copy": "Zorg ervoor dat je de database informatie bij de hand hebt om je eerste project in te stellen.",
   "why": "Waarom?",
   "wrapping_up": "Afronden",
   "wrong_super_admin_password": "Het superbeheerders wachtwoord dat u hebt ingevuld, is onjuist.",

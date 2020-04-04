@@ -50,12 +50,12 @@
   "collection_updated": "Colección actualizada",
   "collections_and_fields": "Colección y Campos",
   "collections": {
-    "directus_activity": "Actividad",
-    "directus_files": "Archivos",
-    "directus_users": "Usuarios"
+    "naikinto_activity": "Actividad",
+    "naikinto_files": "Archivos",
+    "naikinto_users": "Usuarios"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Acción",
       "collection": "Colección",
       "item": "Clave Primaria del Item",
@@ -67,7 +67,7 @@
       "user_agent": "Navegador",
       "comment": "Comentar"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Título",
       "tags": "Etiquetas",
       "location": "Ubicación",
@@ -84,7 +84,7 @@
       "filesize": "Tamaño del archivo",
       "metadata": "Metadata"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Estado",
       "first_name": "Primer Nombre",
       "last_name": "Apellido",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Principio de la ventana de diálogo.",
   "discard_changes": "Descartar Cambios",
   "display_name": "Mostrar Nombre",
-  "directus_version": "Versión de Directus",
+  "naikinto_version": "Versión de Directus",
   "done": "Completado",
   "dont_manage": "No Administrar",
   "dont_manage_copy": "¡Privilegios, preferencias y ajustes de esta colección serán borrados permanentemente del sistema! ¿Estás seguro?",
@@ -254,8 +254,8 @@
     "datetime_created": "Campo del sistema para seguir la fecha y hora (datetime) que una entrada fue creada, usado en las revisiones",
     "datetime_updated": "Campo del sistema para seguir la fecha y hora (datetime) que una entrada fue editada, usado en las revisiones",
     "decimal": "Numero que incluye un decimal",
-    "file": "Clave externa a directus_files.id",
-    "group": "Los campos se agrupan visualmente, los hijos del grupo se guardan en directus_fields.group",
+    "file": "Clave externa a naikinto_files.id",
+    "group": "Los campos se agrupan visualmente, los hijos del grupo se guardan en naikinto_fields.group",
     "integer": "Número entero",
     "json": "Formato JSON estándar en la respuesta del API",
     "lang": "Especifico de las interfaces de traducción, esta almacena la clave de lenguaje",
@@ -483,7 +483,7 @@
   "settings_saved": "Configuración guardada",
   "settings_webhooks": "Webhooks",
   "setup_2fa": "Configurar 2FA",
-  "show_directus_collections": "Mostrar colecciones del sistema Directus",
+  "show_naikinto_collections": "Mostrar colecciones del sistema Directus",
   "signed": "Registrado",
   "sign_in": "Registrarse",
   "sign_out": "Cerrar sesión",
@@ -538,7 +538,7 @@
   },
   "welcome": "Bienvenido",
   "welcome_to_directus": "Bienvenido a Directus",
-  "welcome_to_directus_copy": "Por favor, asegúrese de que tiene la información de su base de datos útil para configurar su primer proyecto.",
+  "welcome_to_naikinto_copy": "Por favor, asegúrese de que tiene la información de su base de datos útil para configurar su primer proyecto.",
   "why": "¿Por qué?",
   "wrapping_up": "Terminando",
   "wrong_super_admin_password": "La super clave de administrador que proporcionaste es incorrecta.",

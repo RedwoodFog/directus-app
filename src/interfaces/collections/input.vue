@@ -24,7 +24,7 @@ export default {
 			Object.keys(collections)
 				.filter(key => {
 					if (includeSystem) return key;
-					return key.startsWith('directus_') === false;
+					return key.startsWith('naikinto_') === false;
 				})
 				.forEach(key => {
 					choices[key] = this.$helpers.formatTitle(key);

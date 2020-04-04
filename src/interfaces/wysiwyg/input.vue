@@ -34,7 +34,7 @@
 					:value="selectedFile"
 					:relation="relation"
 					:fields="null"
-					collection="directus_files"
+					collection="naikinto_files"
 					:values="null"
 					:length="10"
 					:new-item="newItem"
@@ -302,7 +302,7 @@ export default {
 					id = this.selectedFile;
 				}
 
-				const { data: file } = await this.$api.getItem('directus_files', id);
+				const { data: file } = await this.$api.getItem('naikinto_files', id);
 				this.newInlineFile = false;
 
 				// TODO: Make sure it returns the correct keys for non-image type files. See

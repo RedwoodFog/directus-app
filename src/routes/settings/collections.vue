@@ -141,7 +141,7 @@ export default {
 			const collections = this.$store.state.collections || {};
 
 			return Object.values(collections)
-				.filter(collection => collection.collection.startsWith('directus_') === false)
+				.filter(collection => collection.collection.startsWith('naikinto_') === false)
 				.map(collection => ({
 					...collection,
 					__link__: `/${this.currentProjectKey}/settings/collections/${collection.collection}`
@@ -563,7 +563,7 @@ export default {
 				this.dontManage = collection;
 			} else {
 				return this.$api
-					.updateItem('directus_collections', collection.collection, {
+					.updateItem('naikinto_collections', collection.collection, {
 						managed: true
 					})
 					.then(() => {
@@ -592,7 +592,7 @@ export default {
 			const dontManage = this.dontManage;
 			this.toManage.push(dontManage.collection.collection);
 			return this.$api
-				.updateItem('directus_collections', dontManage.collection, {
+				.updateItem('naikinto_collections', dontManage.collection, {
 					managed: false
 				})
 				.then(() => {

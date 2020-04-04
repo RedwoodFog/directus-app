@@ -17,7 +17,7 @@
 		<v-form
 			:fields="fields"
 			:values="values"
-			collection="directus_settings"
+			collection="naikinto_settings"
 			@stage-value="stageValue"
 		/>
 		<v-info-sidebar wide>
@@ -45,7 +45,7 @@ export default {
 	computed: {
 		...mapState({
 			settings: state => state.settings.values,
-			fields: state => state.collections.directus_settings.fields,
+			fields: state => state.collections.naikinto_settings.fields,
 			currentProjectKey: state => state.currentProjectKey
 		}),
 		values() {

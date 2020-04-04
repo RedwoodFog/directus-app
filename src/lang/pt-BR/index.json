@@ -50,12 +50,12 @@
   "collection_updated": "Coleção Atualizada",
   "collections_and_fields": "Coleção & Campos",
   "collections": {
-    "directus_activity": "Atividade",
-    "directus_files": "Arquivos",
-    "directus_users": "Usuários"
+    "naikinto_activity": "Atividade",
+    "naikinto_files": "Arquivos",
+    "naikinto_users": "Usuários"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Ação",
       "collection": "Coleção",
       "item": "Chave Primária do Item",
@@ -67,7 +67,7 @@
       "user_agent": "Agente de Usuário",
       "comment": "Comentário"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Título",
       "tags": "Tags",
       "location": "Local",
@@ -84,7 +84,7 @@
       "filesize": "Tamanho do Arquivo",
       "metadata": "Metadados"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Status",
       "first_name": "Primeiro Nome",
       "last_name": "Sobrenome",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Começo da janela de diálogo.",
   "discard_changes": "Descartar Mudanças",
   "display_name": "Mostrar Nome",
-  "directus_version": "Versão do Directus",
+  "naikinto_version": "Versão do Directus",
   "done": "Finalizar",
   "dont_manage": "Não gerenciar",
   "dont_manage_copy": "Privilégios, preferências e configurações desta coleção serão removidos permanentemente do sistema! Você tem certeza?",
@@ -254,8 +254,8 @@
     "datetime_created": "Campo do sistema para rastrear a data e hora em que um item foi criado, usado em revisões",
     "datetime_updated": "Campo do sistema para rastrear a data e hora em que um item foi atualizado, usado em revisões",
     "decimal": "Número que inclua um decimal",
-    "file": "Chave estrangeira para directus_files.id",
-    "group": "Agrupa campos visualmente e salva campo resultante para directus_fields.group",
+    "file": "Chave estrangeira para naikinto_files.id",
+    "group": "Agrupa campos visualmente e salva campo resultante para naikinto_fields.group",
     "integer": "Número inteiro",
     "json": "Formato padrão JSON de resposta da API",
     "lang": "Específico para interfaces de tradução, armazena a chave da língua",
@@ -483,7 +483,7 @@
   "settings_saved": "Configurações Salvas",
   "settings_webhooks": "Webhooks",
   "setup_2fa": "Configurar 2FA",
-  "show_directus_collections": "Mostrar coleções do sistema Directus",
+  "show_naikinto_collections": "Mostrar coleções do sistema Directus",
   "signed": "Signed",
   "sign_in": "Entrar",
   "sign_out": "Sair",
@@ -538,7 +538,7 @@
   },
   "welcome": "Bem-vindo",
   "welcome_to_directus": "Bem-vindo ao Directus",
-  "welcome_to_directus_copy": "Por favor, certifique-se de que você tem suas informações do banco de dados úteis para configurar seu primeiro projeto.",
+  "welcome_to_naikinto_copy": "Por favor, certifique-se de que você tem suas informações do banco de dados úteis para configurar seu primeiro projeto.",
   "why": "Por quê?",
   "wrapping_up": "Hora de ver o resultado final",
   "wrong_super_admin_password": "A senha de super administrador que você forneceu está incorreta.",

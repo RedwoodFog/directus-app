@@ -50,12 +50,12 @@
   "collection_updated": "Sammlung aktualisiert",
   "collections_and_fields": "Sammlungen & Felder",
   "collections": {
-    "directus_activity": "Aktivität",
-    "directus_files": "Dateien",
-    "directus_users": "Benutzer"
+    "naikinto_activity": "Aktivität",
+    "naikinto_files": "Dateien",
+    "naikinto_users": "Benutzer"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Aktion",
       "collection": "Sammlung",
       "item": "Item-Primärschlüssel",
@@ -67,7 +67,7 @@
       "user_agent": "User Agent",
       "comment": "Kommentar"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Titel",
       "tags": "Stichwörter",
       "location": "Ort",
@@ -84,7 +84,7 @@
       "filesize": "Dateigröße",
       "metadata": "Metadaten"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Status",
       "first_name": "Vorname",
       "last_name": "Nachname",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Start des Dialogfensters.",
   "discard_changes": "Änderungen verwerfen",
   "display_name": "Anzeigename",
-  "directus_version": "Directus Version",
+  "naikinto_version": "Directus Version",
   "done": "Erledigt",
   "dont_manage": "Nicht verwalten",
   "dont_manage_copy": "Berechtigungen und Einstellungen der Sammlung werden endgültig gelöscht! Bist Du sicher?",
@@ -254,8 +254,8 @@
     "datetime_created": "Systemfeld, um den Zeitpunkt des Erstellens eines Elements zu verfolgen; wird für Revisionen verwendet",
     "datetime_updated": "Systemfeld, um den Zeitpunkt des Bearbeitens eines Elements zu verfolgen; wird für Revisionen verwendet",
     "decimal": "Gleitkommazahl",
-    "file": "Fremdschlüssel zu directus_files.id",
-    "group": "Gruppenfelder sind visuell zusammengefasst, Kinder speichern die Gruppe in directus_fields.group",
+    "file": "Fremdschlüssel zu naikinto_files.id",
+    "group": "Gruppenfelder sind visuell zusammengefasst, Kinder speichern die Gruppe in naikinto_fields.group",
     "integer": "Ganze Zahl",
     "json": "Standard JSON-Format in API-Response",
     "lang": "Spezifisch für Übersetzungen; dies speichert den Verweis auf die Sprache",
@@ -483,7 +483,7 @@
   "settings_saved": "Einstellungen gespeichert",
   "settings_webhooks": "Webhooks",
   "setup_2fa": "2FA einrichten",
-  "show_directus_collections": "Interne System-Sammlungen anzeigen",
+  "show_naikinto_collections": "Interne System-Sammlungen anzeigen",
   "signed": "Vorzeichenbehaftet",
   "sign_in": "Login",
   "sign_out": "Ausloggen",
@@ -538,7 +538,7 @@
   },
   "welcome": "Willkommen",
   "welcome_to_directus": "Willkommen bei Directus",
-  "welcome_to_directus_copy": "Bitte stellen Sie sicher, dass Sie Ihre Datenbank-Informationen zur Hand haben, um Ihr erstes Projekt einzurichten.",
+  "welcome_to_naikinto_copy": "Bitte stellen Sie sicher, dass Sie Ihre Datenbank-Informationen zur Hand haben, um Ihr erstes Projekt einzurichten.",
   "why": "Warum?",
   "wrapping_up": "Fasse zusammen",
   "wrong_super_admin_password": "Das eingegebene Super-Admin-Passwort ist nicht korrekt.",

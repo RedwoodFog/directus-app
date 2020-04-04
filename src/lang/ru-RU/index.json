@@ -50,12 +50,12 @@
   "collection_updated": "Коллекция обновлена",
   "collections_and_fields": "Коллекция и Поля",
   "collections": {
-    "directus_activity": "Активность",
-    "directus_files": "Файлы",
-    "directus_users": "Пользователи"
+    "naikinto_activity": "Активность",
+    "naikinto_files": "Файлы",
+    "naikinto_users": "Пользователи"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Действие",
       "collection": "Коллекция",
       "item": "Ключ предмета",
@@ -67,7 +67,7 @@
       "user_agent": "Пользовательский агент",
       "comment": "Комментарий"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Заголовок",
       "tags": "Теги",
       "location": "Местоположение",
@@ -84,7 +84,7 @@
       "filesize": "Размер файла",
       "metadata": "Метаданные"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Статус",
       "first_name": "Имя",
       "last_name": "Фамилия",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Начало диалогового окна.",
   "discard_changes": "Отменить изменения",
   "display_name": "Отображаемое имя",
-  "directus_version": "Версия Directus",
+  "naikinto_version": "Версия Directus",
   "done": "Готово",
   "dont_manage": "Нельзя править",
   "dont_manage_copy": "Привилегии, настройки и настройки этой коллекции будут навсегда удалены из системы! Вы уверены?",
@@ -254,8 +254,8 @@
     "datetime_created": "Системное поле для отслеживания даты и времени создания элемента, используемого ревизиями",
     "datetime_updated": "Системное поле для отслеживания даты и времени обновления элемента, используемого ревизиями",
     "decimal": "Число с десятичным числом",
-    "file": "Внешний ключ к directus_files.id",
-    "group": "Визуально группирует поля вместе, дети сохраняют группу в directus_fields.group",
+    "file": "Внешний ключ к naikinto_files.id",
+    "group": "Визуально группирует поля вместе, дети сохраняют группу в naikinto_fields.group",
     "integer": "Целое число",
     "json": "Стандартный формат JSON в ответе API",
     "lang": "Специфично для интерфейсов перевода, здесь хранится языковой ключ",
@@ -483,7 +483,7 @@
   "settings_saved": "Настройки сохранены",
   "settings_webhooks": "Webhooks",
   "setup_2fa": "Setup 2FA",
-  "show_directus_collections": "Показать системные коллекций Directus'а",
+  "show_naikinto_collections": "Показать системные коллекций Directus'а",
   "signed": "Signed",
   "sign_in": "Войти",
   "sign_out": "Выйти",
@@ -538,7 +538,7 @@
   },
   "welcome": "Добро пожаловать",
   "welcome_to_directus": "Добро пожаловать в Directus",
-  "welcome_to_directus_copy": "Пожалуйста, убедитесь, что у вас есть информация о вашей базе данных для создания первого проекта.",
+  "welcome_to_naikinto_copy": "Пожалуйста, убедитесь, что у вас есть информация о вашей базе данных для создания первого проекта.",
   "why": "Почему?",
   "wrapping_up": "Перенос",
   "wrong_super_admin_password": "Неверный пароль супер администратора.",

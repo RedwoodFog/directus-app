@@ -50,12 +50,12 @@
   "collection_updated": "Kolekcja zaktualizowana",
   "collections_and_fields": "Kolekcje i pola",
   "collections": {
-    "directus_activity": "Aktywność",
-    "directus_files": "Pliki",
-    "directus_users": "Użytkownicy"
+    "naikinto_activity": "Aktywność",
+    "naikinto_files": "Pliki",
+    "naikinto_users": "Użytkownicy"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Czynność",
       "collection": "Kolekcja",
       "item": "Klucz główny produktu",
@@ -67,7 +67,7 @@
       "user_agent": "User agent",
       "comment": "Komentarz"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Title",
       "tags": "Tags",
       "location": "Lokalizacja",
@@ -84,7 +84,7 @@
       "filesize": "Rozmiar pliku",
       "metadata": "Metadane"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Status",
       "first_name": "Imię",
       "last_name": "Nazwisko",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Początek okna dialogowego.",
   "discard_changes": "Odrzuć zmiany.",
   "display_name": "Wyświetlana nazwa",
-  "directus_version": "Wersja aplikacji Directus",
+  "naikinto_version": "Wersja aplikacji Directus",
   "done": "Skończone",
   "dont_manage": "Nie zarządzaj",
   "dont_manage_copy": "Privileges, preferences, and settings for this collection will be permanently removed from the system! Are you sure?",
@@ -254,8 +254,8 @@
     "datetime_created": "Pole systemowe do przetrzymywania informacji o dacie i czasie w którym element został stworzony, wykorzystywane przez rewizje",
     "datetime_updated": "Pole systemowe do przetrzymywania informacji o dacie i czasie w którym element był aktualizowany, wykorzystywane przez rewizje",
     "decimal": "Liczba zmiennoprzecinkowa",
-    "file": "Klucz obcy nawiązujący do directus_files.id",
-    "group": "Grupuje pola razem pod względem wizualnym - pola-dzieci zapisują grupy do directus_fields.group",
+    "file": "Klucz obcy nawiązujący do naikinto_files.id",
+    "group": "Grupuje pola razem pod względem wizualnym - pola-dzieci zapisują grupy do naikinto_fields.group",
     "integer": "Liczba całkowita",
     "json": "Standardowy format JSON zwracany przez API",
     "lang": "Charakterystyczne dla przekładów, przechowuje klucz języka",
@@ -483,7 +483,7 @@
   "settings_saved": "Ustawienia zapisane",
   "settings_webhooks": "Webhooki",
   "setup_2fa": "Setup 2FA",
-  "show_directus_collections": "Pokaż systemowe kolekcje Directusa",
+  "show_naikinto_collections": "Pokaż systemowe kolekcje Directusa",
   "signed": "Signed",
   "sign_in": "Zarejestruj się",
   "sign_out": "Wyloguj się",
@@ -538,7 +538,7 @@
   },
   "welcome": "Witaj",
   "welcome_to_directus": "Witaj w Directus",
-  "welcome_to_directus_copy": "Please make sure you have your database information handy to set up your first project.",
+  "welcome_to_naikinto_copy": "Please make sure you have your database information handy to set up your first project.",
   "why": "Why?",
   "wrapping_up": "Wrapping Up",
   "wrong_super_admin_password": "Podane hasło super administratora jest nieprawidłowe.",

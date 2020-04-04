@@ -18,13 +18,13 @@ export async function setSetting({ commit, state }, { key, value }) {
 	const settingPrimaryKey = state.primaryKeys[key];
 
 	if (isNil(settingPrimaryKey)) {
-		const { data: setting } = await api.createItem('directus_settings', {
+		const { data: setting } = await api.createItem('naikinto_settings', {
 			key,
 			value
 		});
 		commit(SET_SETTING, setting);
 	} else {
-		const { data: setting } = await api.updateItem('directus_settings', settingPrimaryKey, {
+		const { data: setting } = await api.updateItem('naikinto_settings', settingPrimaryKey, {
 			value
 		});
 		commit(SET_SETTING, setting);

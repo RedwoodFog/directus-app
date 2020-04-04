@@ -126,7 +126,7 @@ export default {
 		collections() {
 			const collections = Object.assign({}, this.$store.state.collections);
 			return Object.keys(collections)
-				.filter(collection => collection.startsWith('directus_') === false)
+				.filter(collection => collection.startsWith('naikinto_') === false)
 				.reduce((obj, collection) => {
 					obj[collection] = collections[collection];
 					return obj;

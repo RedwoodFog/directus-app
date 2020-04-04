@@ -57,7 +57,7 @@
 			:fields="fields"
 			:values="{ ...role, ...roleEdits }"
 			:primary-key="role.id"
-			collection="directus_roles"
+			collection="naikinto_roles"
 			@stage-value="stageValue"
 		/>
 
@@ -260,7 +260,7 @@ export default {
 
 		if (isNew) {
 			return api
-				.getFields('directus_roles')
+				.getFields('naikinto_roles')
 				.then(res => res.data)
 				.then(fieldsArray => {
 					next(vm => {
@@ -286,7 +286,7 @@ export default {
 			fields: '*.*.*'
 		};
 
-		return Promise.all([api.getRole(+id, params), api.getFields('directus_roles')])
+		return Promise.all([api.getRole(+id, params), api.getFields('naikinto_roles')])
 			.then(([roleRes, fieldsRes]) => ({
 				role: roleRes.data,
 				fields: keyBy(

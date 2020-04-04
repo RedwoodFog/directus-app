@@ -148,7 +148,7 @@ export default {
 				...this.files
 			};
 			this.$api
-				.createItem('directus_files', {
+				.createItem('naikinto_files', {
 					data: this.embedLink
 				})
 				.then(res => res.data)

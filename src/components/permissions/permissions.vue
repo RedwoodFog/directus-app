@@ -39,7 +39,7 @@
 				</template>
 			</div>
 		</div>
-		<v-switch v-model="showDirectus" :label="$t('show_directus_collections')" />
+		<v-switch v-model="showDirectus" :label="$t('show_naikinto_collections')" />
 	</div>
 </template>
 
@@ -80,7 +80,7 @@ export default {
 	computed: {
 		directusRows() {
 			const permissions = pickBy(this.permissions, (permission, collection) =>
-				collection.startsWith('directus_')
+				collection.startsWith('naikinto_')
 			);
 
 			return _(permissions)
@@ -92,7 +92,7 @@ export default {
 		rows() {
 			const permissions = pickBy(
 				this.permissions,
-				(permission, collection) => collection.startsWith('directus_') === false
+				(permission, collection) => collection.startsWith('naikinto_') === false
 			);
 
 			return _(permissions)
@@ -108,7 +108,7 @@ export default {
 			let full = true;
 
 			forEach(this.permissions, (column, collection) => {
-				if (collection.startsWith('directus_')) return;
+				if (collection.startsWith('naikinto_')) return;
 				if (this.statuses[collection]) {
 					forEach(column, statusColumn => {
 						if (statusColumn[permission] === 'full') {
@@ -124,7 +124,7 @@ export default {
 			});
 
 			Object.keys(this.permissions).forEach(collection => {
-				if (collection.startsWith('directus_')) return;
+				if (collection.startsWith('naikinto_')) return;
 
 				if (this.statuses[collection]) {
 					return Object.keys(this.statuses[collection].mapping).forEach(status => {

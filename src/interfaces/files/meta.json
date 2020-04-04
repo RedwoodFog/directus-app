@@ -4,7 +4,7 @@
   "types": ["o2m"],
   "relation": {
     "type": "m2m",
-    "relatedCollection": "directus_files"
+    "relatedCollection": "naikinto_files"
   },
   "icon": "insert_drive_file",
   "recommended": {

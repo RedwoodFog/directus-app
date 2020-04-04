@@ -132,7 +132,7 @@ export default {
 			return {
 				key: 'directusVersion',
 				success: 'v' + this.serverInfo.directus === this.lastTag,
-				value: this.$t('directus_version') + ': v' + this.serverInfo.directus
+				value: this.$t('naikinto_version') + ': v' + this.serverInfo.directus
 			};
 		}
 	},

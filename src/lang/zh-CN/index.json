@@ -50,12 +50,12 @@
   "collection_updated": "集合已更新",
   "collections_and_fields": "集合与字段",
   "collections": {
-    "directus_activity": "活动",
-    "directus_files": "多个文件",
-    "directus_users": "用户"
+    "naikinto_activity": "活动",
+    "naikinto_files": "多个文件",
+    "naikinto_users": "用户"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "操作",
       "collection": "集合",
       "item": "项目主键",
@@ -67,7 +67,7 @@
       "user_agent": "用户代理（User Agent）",
       "comment": "注释"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "标题",
       "tags": "标签",
       "location": "地理位置",
@@ -84,7 +84,7 @@
       "filesize": "文件大小",
       "metadata": "元数据（Metadata）"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "状态",
       "first_name": "名",
       "last_name": "姓",
@@ -180,7 +180,7 @@
   "dialog_beginning": "对话框窗口开始。",
   "discard_changes": "不保存修改并离开此页",
   "display_name": "显示名称",
-  "directus_version": "Directus 版本",
+  "naikinto_version": "Directus 版本",
   "done": "已完成",
   "dont_manage": "不管理",
   "dont_manage_copy": "此集合的权限、首选项和设置将被永久从系统中删除！您确定吗？",
@@ -254,8 +254,8 @@
     "datetime_created": "系统字段，用于跟踪创建项目的日期时间，用于修订",
     "datetime_updated": "系统字段，用于跟踪项目更新的日期时间，用于修订",
     "decimal": "包含小数的数字",
-    "file": "外键指向 directus_files.id",
-    "group": "将字段可视化地分组在一起，子组将把组保存到 directus_fields.group 中",
+    "file": "外键指向 naikinto_files.id",
+    "group": "将字段可视化地分组在一起，子组将把组保存到 naikinto_fields.group 中",
     "integer": "整数",
     "json": "API 响应的标准数组格式",
     "lang": "特定用于翻译界面接口，它用来存储语言密钥",
@@ -483,7 +483,7 @@
   "settings_saved": "设置保存成功",
   "settings_webhooks": "Webhook",
   "setup_2fa": "设置 2FA",
-  "show_directus_collections": "显示Directus系统集合",
+  "show_naikinto_collections": "显示Directus系统集合",
   "signed": "Signed",
   "sign_in": "登录",
   "sign_out": "退出登录",
@@ -538,7 +538,7 @@
   },
   "welcome": "欢迎",
   "welcome_to_directus": "欢迎使用 Directus",
-  "welcome_to_directus_copy": "请确保知道你的数据库信息，用以设置第一个项目。",
+  "welcome_to_naikinto_copy": "请确保知道你的数据库信息，用以设置第一个项目。",
   "why": "为什么？",
   "wrapping_up": "即将完成",
   "wrong_super_admin_password": "您提供的超级管理员密码不正确。",

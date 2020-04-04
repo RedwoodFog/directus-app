@@ -123,13 +123,13 @@ export default {
 			};
 
 			// Check if one of the fields is `data`. If that's the case, make sure that this
-			//   field is for the directus_files collection and it's an ALIAS type
+			//   field is for the naikinto_files collection and it's an ALIAS type
 			//
-			// This is a hardcoded addition to make sure that directus_files can be used in the cards view preview
+			// This is a hardcoded addition to make sure that naikinto_files can be used in the cards view preview
 			if ('data' in this.fields) {
 				const field = this.fields.data;
 
-				if (field.type.toLowerCase() === 'alias' && field.collection === 'directus_files') {
+				if (field.type.toLowerCase() === 'alias' && field.collection === 'naikinto_files') {
 					options.data = this.$t('file');
 				}
 			}

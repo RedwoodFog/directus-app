@@ -15,7 +15,7 @@
 	/>
 
 	<v-error
-		v-else-if="collection === 'directus_files' && items.meta && items.meta.total_count === 0"
+		v-else-if="collection === 'naikinto_files' && items.meta && items.meta.total_count === 0"
 		icon="image"
 		:title="$t('no_files')"
 		:body="$t('no_files_body')"
@@ -236,13 +236,13 @@ export default {
 								item[this.primaryKeyField]
 							}`;
 
-							if (this.collection.startsWith('directus_')) {
+							if (this.collection.startsWith('naikinto_')) {
 								link = `/${this.currentProjectKey}/${this.collection.substr(9)}/${
 									item[this.primaryKeyField]
 								}`;
 							}
 
-							if (this.collection === 'directus_webhooks') {
+							if (this.collection === 'naikinto_webhooks') {
 								link = `/${this.currentProjectKey}/settings/webhooks/${
 									item[this.primaryKeyField]
 								}`;
@@ -392,13 +392,13 @@ export default {
 									this.collection
 								}/${item[this.primaryKeyField]}`;
 
-								if (this.collection.startsWith('directus_')) {
+								if (this.collection.startsWith('naikinto_')) {
 									link = `/${this.currentProjectKey}/${this.collection.substr(
 										9
 									)}/${item[this.primaryKeyField]}`;
 								}
 
-								if (this.collection === 'directus_webhooks') {
+								if (this.collection === 'naikinto_webhooks') {
 									link = `/${this.currentProjectKey}/settings/webhooks/${
 										item[this.primaryKeyField]
 									}`;

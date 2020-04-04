@@ -50,12 +50,12 @@
   "collection_updated": "Collection mise à jour",
   "collections_and_fields": "Collection & Champs",
   "collections": {
-    "directus_activity": "Activité",
-    "directus_files": "Fichiers",
-    "directus_users": "Utilisateurs"
+    "naikinto_activity": "Activité",
+    "naikinto_files": "Fichiers",
+    "naikinto_users": "Utilisateurs"
   },
   "fields": {
-    "directus_activity": {
+    "naikinto_activity": {
       "action": "Action",
       "collection": "Collection",
       "item": "Clé principale de l'élément",
@@ -67,7 +67,7 @@
       "user_agent": "Agent utilisateur",
       "comment": "Commentaire"
     },
-    "directus_files": {
+    "naikinto_files": {
       "title": "Titre",
       "tags": "Étiquettes",
       "location": "Localisation",
@@ -84,7 +84,7 @@
       "filesize": "Taille du fichier",
       "metadata": "Métadonnée"
     },
-    "directus_users": {
+    "naikinto_users": {
       "status": "Etat",
       "first_name": "Prénom",
       "last_name": "Nom",
@@ -180,7 +180,7 @@
   "dialog_beginning": "Début de la fenêtre de dialogue.",
   "discard_changes": "Annuler les modifications",
   "display_name": "Afficher le nom",
-  "directus_version": "Version de Directus",
+  "naikinto_version": "Version de Directus",
   "done": "Fait",
   "dont_manage": "Ne pas gérer",
   "dont_manage_copy": "Les privilèges, préférences et paramètres de cette collection seront définitivement supprimés du système ! Êtes-vous sûr ?",
@@ -254,8 +254,8 @@
     "datetime_created": "Champ système permettant de suivre la date et l’heure à laquelle un élément a été créé, utilisé par les révisions",
     "datetime_updated": "Champ système permettant de suivre la date et l’heure à laquelle un élément a été mis à jour, utilisé par les révisions",
     "decimal": "Nombre décimal",
-    "file": "Clé étrangère pour directus_files.id",
-    "group": "Regroupement visuel de champs, les champs enfants enregistrent le groupe dans directus_fields.group",
+    "file": "Clé étrangère pour naikinto_files.id",
+    "group": "Regroupement visuel de champs, les champs enfants enregistrent le groupe dans naikinto_fields.group",
     "integer": "Nombre entier",
     "json": "Format JSON standard dans la réponse de l’API",
     "lang": "Spécifique aux interfaces de traduction, cela stocke la clé de la langue",
@@ -483,7 +483,7 @@
   "settings_saved": "Paramètres enregistrés",
   "settings_webhooks": "Webhooks",
   "setup_2fa": "Configurer 2FA",
-  "show_directus_collections": "Afficher les collections systèmes de Directus",
+  "show_naikinto_collections": "Afficher les collections systèmes de Directus",
   "signed": "Signed",
   "sign_in": "Se connecter",
   "sign_out": "Déconnexion",
@@ -538,7 +538,7 @@
   },
   "welcome": "Bienvenue",
   "welcome_to_directus": "Bienvenue sur Directus",
-  "welcome_to_directus_copy": "Veuillez vous assurer que vous avez les informations de votre base de données à portée de main pour configurer votre premier projet.",
+  "welcome_to_naikinto_copy": "Veuillez vous assurer que vous avez les informations de votre base de données à portée de main pour configurer votre premier projet.",
   "why": "Pourquoi ?",
   "wrapping_up": "Finalisation",
   "wrong_super_admin_password": "Le mot de passe super admin que vous avez fourni est incorrect.",

@@ -158,11 +158,11 @@ export default {
 		...mapGetters(['currentProject']),
 		...mapState(['currentProjectKey']),
 		globalNum() {
-			return Object.keys(this.$store.state.collections.directus_settings.fields).length;
+			return Object.keys(this.$store.state.collections.naikinto_settings.fields).length;
 		},
 		collectionsNum() {
 			return Object.keys(this.$store.state.collections).filter(
-				name => name.startsWith('directus_') === false
+				name => name.startsWith('naikinto_') === false
 			).length;
 		},
 		projectName() {
@@ -191,7 +191,7 @@ export default {
 	methods: {
 		getRoleCount() {
 			this.$api
-				.getItems('directus_roles', {
+				.getItems('naikinto_roles', {
 					fields: '-',
 					limit: 0,
 					meta: 'total_count'
@@ -208,7 +208,7 @@ export default {
 		},
 		getActivityCount() {
 			this.$api
-				.getItems('directus_activity', {
+				.getItems('naikinto_activity', {
 					fields: '-',
 					limit: 0,
 					meta: 'total_count'
@@ -225,7 +225,7 @@ export default {
 		},
 		getWebhookCount() {
 			this.$api
-				.getItems('directus_webhooks', {
+				.getItems('naikinto_webhooks', {
 					limit: 0,
 					meta: 'total_count'
 				})

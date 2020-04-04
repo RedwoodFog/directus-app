@@ -7,7 +7,7 @@
 				<div class="field-grid">
 					<div class="field">
 						<h2 class="type-title">{{ $t('welcome_to_directus') }}</h2>
-						<p>{{ $t('welcome_to_directus_copy') }}</p>
+						<p>{{ $t('welcome_to_naikinto_copy') }}</p>
 					</div>
 				</div>
 				<button type="button" @click="step = 2">{{ $t('next') }}</button>
